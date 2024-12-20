@@ -12,13 +12,13 @@ This project is a simple real-time chat application built using **Spring Boot** 
 
 ## Technologies Used
 
-- **Spring Boot**: Backend framework for building REST APIs and handling WebSocket communication.
-- **WebSockets**: Used for real-time communication between the server and clients.
-- **STOMP (Simple Text Oriented Messaging Protocol)**: A messaging protocol over WebSockets.
-- **SockJS**: JavaScript library to provide WebSocket-like object support.
-- **Bootstrap**: For responsive and clean front-end UI.
-- **JavaScript**: For the client-side logic to connect to WebSocket and manage messages.
-- **Lombok**: Used for simplifying Java code by reducing boilerplate code (e.g., getters, setters).
+- **Spring Boot**
+- **WebSockets**
+- **STOMP 
+- **SockJS**
+- **Bootstrap**
+- **JavaScript**
+- **Lombok**
 
 
 ## Important Files
@@ -58,7 +58,11 @@ This project is a simple real-time chat application built using **Spring Boot** 
 
 4.   **Run and Access the chat Application**:
 
-       ```bash
+      ```bash
 
        mvn spring-boot:run
        http://localhost:8080/chat
+      
+   Now You should see the real-time chat interface
+
+
